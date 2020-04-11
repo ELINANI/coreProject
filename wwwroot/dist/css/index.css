@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Ribeye&display=swap");
+body {
+  background-color: #000;
+  font-family: "Ribeye"; }
+
+.table-box {
+  width: 800px;
+  height: 400px;
+  overflow-y: scroll;
+  background: #25282D;
+  box-shadow: 0 10px 100px rgba(0, 0, 0, 0.5); }
+
+table {
+  width: 100%; }
+
+table, th, td {
+  border: 1px solid red;
+  border-collapse: collapse;
+  text-align: left; }
+
+table tr th:nth-child(1) {
+  width: 60px;
+  text-align: center;
+  background: red; }
+
+table tr td:nth-child(1) {
+  color: #B2B2B2;
+  text-align: center; }
